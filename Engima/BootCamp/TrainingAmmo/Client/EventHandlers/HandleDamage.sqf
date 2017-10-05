@@ -10,6 +10,7 @@ player addEventHandler ["HandleDamage", {
 		if (ENGIMA_BOOTCAMP_playerDamage >= 1) then
 		{
 			_player setCaptive true;
+			_player setVariable ["ENG_BOOTCAMP_isNeutralized", true, true];
 			titleText ["Dead!", "PLAIN"];
 			_player playMove "AmovPercMstpSsurWnonDnon";
 			waitUntil { player animationPhase "AmovPercMstpSsurWnonDnon" >= 1 };

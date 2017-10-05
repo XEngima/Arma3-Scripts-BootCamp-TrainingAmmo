@@ -19,7 +19,7 @@
                         <IsSelected>false</IsSelected>
                         <SubNodes>
                           <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="HandleDamage.sqf" IsExpanded="false" FileName="Engima\BootCamp\TrainingAmmo\Client\EventHandlers\HandleDamage.sqf">
-                            <IsSelected>false</IsSelected>
+                            <IsSelected>true</IsSelected>
                             <SubNodes />
                           </ProjectNodeViewModel>
                         </SubNodes>
@@ -38,7 +38,7 @@
                         <SubNodes />
                       </ProjectNodeViewModel>
                       <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="UnitsSpawnService.sqf" IsExpanded="false" FileName="Engima\BootCamp\TrainingAmmo\Server\UnitsSpawnService.sqf">
-                        <IsSelected>true</IsSelected>
+                        <IsSelected>false</IsSelected>
                         <SubNodes />
                       </ProjectNodeViewModel>
                     </SubNodes>
@@ -55,5 +55,7 @@
       </ProjectNodeViewModel>
     </SubNodes>
   </ProjectRootNode>
-  <FilteredAnalyzerResultItems />
+  <FilteredAnalyzerResultItems>
+    <string>Public variable 'ENG_BOOTCAMP_playerDamage' may be used before being assigned a value.</string>
+  </FilteredAnalyzerResultItems>
 </Project>
