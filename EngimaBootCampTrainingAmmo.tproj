@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectRootNode Name="EngimaBootCampTrainingAmmo" IsExpanded="true" FileName="">
-    <IsSelected>false</IsSelected>
+    <IsSelected>true</IsSelected>
     <SubNodes>
       <ProjectNodeViewModel xsi:type="ProjectFolderNodeViewModel" Name="Engima" IsExpanded="true" FileName="Engima">
         <IsSelected>false</IsSelected>
@@ -19,7 +19,7 @@
                         <IsSelected>false</IsSelected>
                         <SubNodes>
                           <ProjectNodeViewModel xsi:type="ProjectFileNodeViewModel" Name="HandleDamage.sqf" IsExpanded="false" FileName="Engima\BootCamp\TrainingAmmo\Client\EventHandlers\HandleDamage.sqf">
-                            <IsSelected>true</IsSelected>
+                            <IsSelected>false</IsSelected>
                             <SubNodes />
                           </ProjectNodeViewModel>
                         </SubNodes>
