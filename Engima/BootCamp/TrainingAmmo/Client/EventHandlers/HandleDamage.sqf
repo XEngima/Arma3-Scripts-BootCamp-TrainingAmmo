@@ -2,7 +2,7 @@ player addEventHandler ["HandleDamage", {
 	private _player = _this select 0;
 	private _damage = _this select 2;
 	
-	ENGIMA_BOOTCAMP_playerDamage = ENG_BOOTCAMP_playerDamage + _damage;
+	ENGIMA_BOOTCAMP_playerDamage = ENGIMA_BOOTCAMP_playerDamage + _damage;
 
 	[_player] spawn {
 		params ["_player"];
